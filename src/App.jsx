@@ -2,10 +2,11 @@ import styled from "@emotion/styled"
 
 function App() {
   const name = "Frederick David"
+  const Age = 40
 
   return (
     <Fred>
-      Hello {name}
+      Hello {name} {Age}
       <Wrapper>Me</Wrapper>
       <Image />
       <Input placeholder="Enter name" />
